@@ -38,3 +38,42 @@ In Nutshell Clean Architecture is :
 * client interface agnostic 
 * framework agnostic 
 
+
+### Basic Principles
+* independent of framework 
+* testable 
+* independent of UI 
+* independent of DB 
+* independent of any external agency 
+
+
+Outer most circle is called mechanism 
+
+Inner circles r called policies
+
+## Source code dependency can only point inwards 
+
+# 12 Factor App
+
+for SaaS 
+* One codebase tracked in revision control, many deploys
+* Explicitly declare and isolate dependencies
+* Store config in the environment
+* Treat backing services as attached resources
+* Strictly separate build and run stages
+* Execute the app as one or more stateless processes
+* Export services via port binding
+* Scale out via the process model
+* Maximize robustness with fast startup and graceful shutdown
+* Keep development, staging, and production as similar as possible
+* Treat logs as event streams
+* Run admin/management tasks as one-off processes
+
+
+
+
+
+
+
+
+
