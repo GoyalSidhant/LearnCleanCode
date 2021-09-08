@@ -70,6 +70,17 @@ for SaaS
 * Run admin/management tasks as one-off processes
 
 
+## SOLID Principles 
+
+Design patterns -> Elegant Solution to repeating problems in software design 
+
+* Single repo Principle -> Class , everything in its place , 
+* Open/Close Principle
+* Liskov Substitution Principle
+* Interface Segregation Principle
+* Dependency Inversion  Principle
+
+
 
 
 
